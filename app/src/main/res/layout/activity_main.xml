@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Question"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+        <CheckBox
+            android:id="@+id/Answer11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Answer11"
+            android:onClick="onAnswer11Click"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+    <!--<TextView-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--tools:layout_editor_absoluteX="165dp"-->
+        <!--tools:layout_editor_absoluteY="136dp" />-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/Answer1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginTop="16dp"-->
+        <!--android:onClick="onAnswer1Click"-->
+        <!--android:text="Answer1"-->
+        <!--tools:layout_editor_absoluteX="165dp"-->
+        <!--tools:layout_editor_absoluteY="136dp" />-->
+
+        <CheckBox
+            android:id="@+id/Answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Answer2"
+            android:onClick="onAnswer2Click"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <CheckBox
+            android:id="@+id/Answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Answer3"
+            android:onClick="onAnswer3Click"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/Outcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Outcome"
+        tools:layout_editor_absoluteY="385dp"
+        tools:layout_editor_absoluteX="163dp" />
+
+
+    </LinearLayout>
+</ScrollView>
